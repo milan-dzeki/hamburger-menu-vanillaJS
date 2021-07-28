@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+    <title>Hamburger menu</title>
+    <!-- font awesome -->
+    <script src="all.js" defer></script>
+    <script src="app.js" defer></script>
+    
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- logo -->
+      <section class="logo">
+        <div class="logo-img">
+          <img src="./hamburger.jpg" alt="burger">
+        </div>
+        <p class="logo-text">
+          burger land
+        </p>
+      </section>
+      <!-- menu btn -->
+      <section class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </section>
+      <!-- menu -->
+      <!--  backdrop -->
+      <article class="backdrop"></article>
+      <section class="menu">
+        <article class="menu-close">
+          <div class="menu-close__btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </article>
+        <ul class="menu-list">
+          <!-- list item -->
+          <li class="menu-item">
+            <div class="menu-item__main submenu-opener">
+              <div class="menu-item__icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <p class="menu-item__title">
+                Burgers
+              </p>
+            </div>
+            <!-- submenu -->
+            <ul class="submenu" id="burger-submenu">
+              <li class="submenu-item">
+                meat burgers
+              </li>
+              <li class="submenu-item">
+                vegan burgers
+              </li>
+            </ul>
+          </li>
+          <!-- list item -->
+          <li class="menu-item">
+            <div class="menu-item__main submenu-opener">
+              <div class="menu-item__icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <p class="menu-item__title">
+                Order burger
+              </p>
+            </div>
+            <!-- submenu -->
+            <ul class="submenu" id="order-submenu">
+              <li class="submenu-item">
+                call us
+              </li>
+              <li class="submenu-item">
+                order online
+              </li>
+            </ul>
+          </li>
+          <!-- list item -->
+          <li class="menu-item">
+            <div class="menu-item__main submenu-opener">
+              <div class="menu-item__icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <p class="menu-item__title">
+                About us
+              </p>
+            </div>
+            <!-- submenu -->
+            <ul class="submenu" id="about-submenu">
+              <li class="submenu-item">
+                menagement
+              </li>
+              <li class="submenu-item">
+                employees
+              </li>
+            </ul>
+          </li>
+          <!-- list item -->
+          <li class="menu-item">
+            <div class="menu-item__main submenu-opener">
+              <div class="menu-item__icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <p class="menu-item__title">
+                apply for job
+              </p>
+            </div>
+            <!-- submenu -->
+            <ul class="submenu" id="apply-submenu">
+              <li class="submenu-item">
+                burger maker
+              </li>
+              <li class="submenu-item">
+                delivery guy
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <h1>Burger Land</h1>
+    </main>
+  </body>
+
+</html>
