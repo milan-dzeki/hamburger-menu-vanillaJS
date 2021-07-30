@@ -64,6 +64,7 @@ class Menu {
         array.filter(item => item !== opener).forEach(item => {
           if(item.nextElementSibling.classList.contains("submenu-open")) {
             item.nextElementSibling.classList.remove("submenu-open");
+            item.querySelector(".menu-item__icon").classList.remove("icon-rotated");
           }
         })
       }
